@@ -1,0 +1,61 @@
+.container {
+  min-height: calc(100vh - 80px); /* navbar ki height minus */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+  height: 400px;   /* 500px se kam */
+}
+
+.image {
+  object-fit: contain;
+  animation: move 3s infinite ease-in-out alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+
+  to {
+    transform: translateY(10px) scale(1.03);
+  }
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input,
+.textArea {
+  padding: 12px;
+  background: transparent;
+  border: 2px solid #bbb;
+  color: #bbb;
+  font-size: 18px;
+}
+
+.textArea {
+  min-height: 180px; /* 300px ya rows=10 se chhota */
+  resize: none;
+}

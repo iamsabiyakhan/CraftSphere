@@ -1,6 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Inter, Roboto, Poppins } from "next/font/google";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer"
+import { ThemeProvider } from "../app/context/ThemeContext";
+import AuthProvider from "./components/AuthProvider/AuthProvider";
 
+const inter = Inter({ subsets: ["latin"] });
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -19,7 +25,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body>{children}</body>
+      <body >
+       
+          <ThemeProvider>
+            <AuthProvider>
+               <div className="container">
+                <Navbar/>
+                {children}
+                <Footer/>
+                </div>
+            </AuthProvider>
+          </ThemeProvider>
+       
+        
+        
+        </body>
     </html>
   );
 }
