@@ -7,6 +7,11 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.pexels.com",
       },
+      {
+        protocol: "https",
+        hostname: "imgs.search.brave.com",
+      },
+      
     ],
   },
 };

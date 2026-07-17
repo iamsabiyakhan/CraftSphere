@@ -49,9 +49,14 @@ const Dashboard = () => {
     return <p>Loading...</p>;
   }
 
+  // if (session.status === "unauthenticated") {
+  //   router?.push("/dashboard/login");
+  // }
+  useEffect(() => {
   if (session.status === "unauthenticated") {
-    router?.push("/dashboard/login");
+    router.push("/dashboard/login");
   }
+}, [session.status, router]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -95,7 +100,7 @@ const Dashboard = () => {
         <div className={styles.posts}>
           {isLoading
             ? "loading"
-            : data?.map((post) => (
+            : data?.posts?.map((post) => (
                 <div className={styles.post} key={post._id}>
                   <div className={styles.imgContainer}>
                     <Image src={post.img} alt="" width={200} height={100} />
