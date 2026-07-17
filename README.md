@@ -1,17 +1,18 @@
 # CraftSphere
 
-A modern Full-Stack Blog Application built with Next.js that allows users to sign in using Google Authentication and create, manage, and publish blog posts.
+CraftSphere is a modern full-stack portfolio and blogging platform built with Next.js. It allows users to authenticate using Google, manage blog posts, and showcase portfolio projects through a clean and responsive interface.
 
 ## Features
 
-- Google Authentication (NextAuth)
+- Google Authentication using NextAuth
 - Secure Login & Logout
-- User Dashboard
-- Create Blog Posts
-- Edit & Delete Blogs
-- MongoDB Database Integration
+- Blog Management
+- Portfolio Showcase
+- Dynamic Routing
+- Protected Dashboard
+- MongoDB Database
 - Responsive UI
-- Protected Routes
+- Reusable Components
 
 ## Tech Stack
 
@@ -20,19 +21,17 @@ A modern Full-Stack Blog Application built with Next.js that allows users to sig
 - NextAuth.js
 - MongoDB
 - Mongoose
-- Tailwind CSS
-- module.CSS
 - JavaScript
+- CSS Modules
 
-## Project Structure
+## Folder Structure
 
 ```
 src/
-app/
-components/
-models/
-lib/
-api/
+ ├── app/
+ ├── components/
+ ├── models/
+ ├── utils/
 public/
 ```
 
@@ -43,26 +42,22 @@ git clone https://github.com/iamsabiyakhan/CraftSphere.git
 
 cd CraftSphere
 
-yarn install
+yarn
 
 yarn dev
-```
 ```
 
 ## Future Improvements
 
 - Rich Text Editor
 - Image Upload
+- Search Functionality
 - Categories & Tags
-- User Profiles
-- Comments System
+- User Profile Management
 
 ## Author
 
-Sabiya
+Sabiya Khan
 
 GitHub:
 https://github.com/iamsabiyakhan
-
-LinkedIn:
-https://www.linkedin.com/in/sabiya-6ba29a2b3
