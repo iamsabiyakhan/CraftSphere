@@ -21,6 +21,7 @@ A modern Full-Stack Blog Application built with Next.js that allows users to sig
 - MongoDB
 - Mongoose
 - Tailwind CSS
+- module.CSS
 - JavaScript
 
 ## Project Structure
@@ -42,9 +43,10 @@ git clone https://github.com/iamsabiyakhan/CraftSphere.git
 
 cd CraftSphere
 
-npm install
+yarn install
 
-npm run dev
+yarn dev
+```
 ```
 
 ## Future Improvements
