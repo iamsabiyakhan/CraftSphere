@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CraftSphere
 
-## Getting Started
+A modern Full-Stack Blog Application built with Next.js that allows users to sign in using Google Authentication and create, manage, and publish blog posts.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Google Authentication (NextAuth)
+- Secure Login & Logout
+- User Dashboard
+- Create Blog Posts
+- Edit & Delete Blogs
+- MongoDB Database Integration
+- Responsive UI
+- Protected Routes
+
+## Tech Stack
+
+- Next.js
+- React.js
+- NextAuth.js
+- MongoDB
+- Mongoose
+- Tailwind CSS
+- JavaScript
+
+## Project Structure
+
+```
+src/
+app/
+components/
+models/
+lib/
+api/
+public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+git clone https://github.com/iamsabiyakhan/CraftSphere.git
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+cd CraftSphere
 
-## Learn More
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Rich Text Editor
+- Image Upload
+- Categories & Tags
+- User Profiles
+- Comments System
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Sabiya
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub:
+https://github.com/iamsabiyakhan
+
+LinkedIn:
+https://www.linkedin.com/in/sabiya-6ba29a2b3
