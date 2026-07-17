@@ -1,6 +1,9 @@
 # CraftSphere
 
 CraftSphere is a modern full-stack portfolio and blogging platform built with Next.js. It allows users to authenticate using Google, manage blog posts, and showcase portfolio projects through a clean and responsive interface.
+## Live Demo
+
+https://craft-sphere-zeta.vercel.app/
 
 ## Features
 
